@@ -23,14 +23,13 @@ public class Ejercicio02 {
 
         System.out.println("-------Solución a problema------------------");
         // Math.sqrt me permite obtener la raíz cuadrada de un número
-        
-        double resultado = (Math.pow(variable1) + Math.pow(variable2) + variable3 / Math.sqrt(variable4));
-        
-        
-        
+
+        double resultado = (Math.pow (variable1,2) + Math.pow (variable2,3))
+              / variable4 + variable3
+        ;
+
         System.out.println(resultado);
 
     }
-                
-    }
- 
+
+}
